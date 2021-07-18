@@ -1,0 +1,141 @@
+/* Définition des polices personnalisées */
+
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('polices/ballpark.eot');
+    src: url('polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('polices/ballpark.woff') format('woff'),
+         url('polices/ballpark.ttf') format('truetype'),
+         url('polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.body
+{
+  width: 70%;
+  background: url(images/fond_jaune.png);
+  margin: auto;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color: #181818;
+}
+
+section h1, footer h2, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+header
+{
+  display: flex;
+}
+
+ul
+{
+  list-style: none;
+  display: flex;
+}
+
+li
+{
+  padding-right: 20px;
+}
+/*---------------------------------------------------
+style pour header*/
+.header
+ {
+   padding-right: 600px;
+ }
+
+.section
+{
+  display: flex;
+}
+nav a
+{
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover
+ {
+   color: green;
+   border-bottom: 5px solid red;
+ }
+.article
+{
+  width: 70%;
+  padding-right: 5%;
+  text-align: justify;
+}
+
+.aside
+{
+  width: 23%;
+  background-color: #AAA;
+  border: 1px solid #BBB;
+  border-radius: 5px;
+  padding: 3px;
+  color: #FFF;
+}
+
+aside img
+{
+  border-radius: 5px;
+}
+
+.imageDeZozor
+{
+  text-align: center;
+}
+/*---------------------------------------------------
+style pour footer*/
+.footer
+{
+  display: flex;
+}
+footer h2
+{
+  font-weight: bold;
+}
+.dernier_tweet
+{
+  width: 20%;
+}
+.photo_space
+{
+  margin-right: 5px;
+  border: 1px solid black;
+  border-radius: 1px;
+}
+.photo
+{
+  width: 30%;
+}
+
+.amis
+{
+  width: 40%;
+}
+
+.amis_ul
+{
+  width: 15%;
+  list-style-type: circle;
+  display: flex;
+}
